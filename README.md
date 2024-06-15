@@ -1,1 +1,0 @@
-# neudea_project
