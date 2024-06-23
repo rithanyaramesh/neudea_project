@@ -7,8 +7,9 @@ describe('pk2-angular-cli-free App', () => {
     page = new Pk2AngularCliFreePage();
   });
 
-  it('should display welcome message', () => {
-    page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to app!!');
+  it('should display welcome message', async () => {
+    await page.navigateTo();
+    const text = await page.getParagraphText();
+    expect(text).toEqual('Welcome to app!!');
   });
 });

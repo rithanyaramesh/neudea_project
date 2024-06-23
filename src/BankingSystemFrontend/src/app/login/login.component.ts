@@ -46,7 +46,7 @@ export class LoginComponent implements OnInit {
                 this.toastr.success('Login Successful');
             },
             (error: HttpErrorResponse) => {
-                this.responseReceived = true
+                this.responseReceived = true;
             }
         );
     }

@@ -37,6 +37,7 @@
     "ngx-toastr": "^11.3.3",
     "nouislider": "9.2.0",
     "popper.js": "1.14.4",
+    "querystring": "^0.2.1",
     "rxjs": "6.5.4",
     "rxjs-compat": "6.5.4",
     "zone.js": "0.10.2"
