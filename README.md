@@ -14,19 +14,14 @@ This project helps us to understand the basic working of Bank accounts. Some of 
 
 ### Steps To Setup Backend
 
-**1. Clone the repository**
-```bash
-    git clone https://github.com/AbhayKatharotiya/BankingSystem.git
-```
+**1. Move to root directory of backend**
 
-**2. Move to root directory of backend**
-
-**3. Build project**
+**2. Build project**
 ```bash
     mvn clean install
 ``` 
 
-**4. Run project** 
+**3. Run project** 
 ```bash
     java -jar target/backend-0.0.1-SNAPSHOT.jar
 ``` 
